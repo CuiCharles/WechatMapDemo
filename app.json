@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "requiredPrivateInfos":["getLocation"],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "当前位置信息将用于附近电站搜索"
+    }
+  }
+}
